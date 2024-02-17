@@ -1,0 +1,202 @@
+.salmanii-AboutSection{
+    width: 100%;
+    min-height: 100%;
+}
+
+.salmanii-section-title{
+    margin-bottom: 60px;
+}
+
+.salmanii-section-title h1{
+    position: relative;
+    font-size: 40px;
+    color: var(--text-black-900);
+}
+
+.salmanii-section-title h1::before{
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    background-color:var(--skin-color);
+    top: 100%;
+    left: 0;
+}
+
+.salmanii-section-title h1::after{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    background-color:var(--skin-color);
+    top: 100%;
+    left: 0;
+    margin-top: 8px;
+}
+
+.salmanii-about-me h2{
+    color: var(--text-black-900);
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.salmanii-about-me h2 span{
+    color: var(--skin-color);
+}
+
+.salmanii-about-me p{
+    color: var(--text-black-700);
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.salmanii-info{
+    display: flex;
+}
+
+.salmanii-personal-info {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap: 8%;
+}
+
+.salmanii-personal-info-item p{
+    color: var(--text-black-900);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 0px;
+    border-bottom: 1px solid var(--bg-white-50);
+}
+
+.salmanii-personal-info-item span{
+    color: var(--text-black-700);
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.salmanii-personl-info-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+
+.salmanii-skills{
+    padding: 0px 15px;
+}
+ 
+.salmanii-skills-item{
+    margin-bottom: 25px;
+}
+
+.salmanii-skills-item h5{
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--text-black-900);
+    line-height: 40px;
+}
+
+.salmanii-skills-item-progress{
+    height: 7px;
+    background-color: var(--bg-white-50);
+    width: 100%;
+    border-radius: 4px;
+    position: relative;
+} 
+
+.salmanii-skills-item-progress-in{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--skin-color);
+    border-radius: 4px;
+}
+
+.salmanii-skills-item-percent{
+    position: absolute;
+    right: 0;
+    top: -40px;
+    line-height: 40px;
+    font-weight: 400;
+    color: var(--text-black-900);
+}
+
+.salmanii-history{
+    display: flex;
+    /* gap: 10%; */
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.salmanii-education-title{
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-weight: 700;
+    color: var(--text-black-900);
+}
+
+.salmanii-education-timeline{
+    background-color: var(--bg-white-100);
+    border: 1px solid var(--bg-white-50);
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px 15px;
+}
+
+.salmanii-education-item{
+    padding:0px 0px 20px 30px;
+    position: relative;
+
+}
+
+.salmanii-education-item:last-child{
+    padding-bottom: 0px;
+    position: relative;
+}
+
+.salmanii-education-item::before{
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 0;
+    width:2px;
+    background-color: var(--skin-color);
+    height: 100%;
+}
+
+.salmanii-education-item-circledot{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: var(--skin-color);
+}
+
+.salmanii-education-item-date{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    color: var(--text-black-700);
+}
+
+.salmanii-education-item-date i{
+    margin-right: 5px;
+}
+
+.salmanii-education-item-title{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-black-900);
+    margin-bottom: 15px;
+}
+
+.salmanii-education-item-details{
+    line-height: 25px;
+    font-size: 16px;
+    color: var(--text-black-700);
+}

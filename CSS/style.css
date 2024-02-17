@@ -15,7 +15,7 @@ html,body{
     display: flex;
     font-family: 'Poppins' sans-serif;
     width: 100%;
-    height: 100%;
+    min-height: 100%;
 }
 
 header{
@@ -37,6 +37,7 @@ main{
     width: 80%;
     flex: 1;
     display: flex;
+    min-height:100vh ;
 }
 
 
@@ -112,48 +113,38 @@ nav ul li a i{
 
 .salmanii-Section{
     width: 100%;
-    min-height:100vh ;
-    padding: 20px 30px;
+    height:100% ;
+    padding: 40px 30px;
 }
 
-.salmanii-HomeSection{
-    display: flex;
+.flb_100{
+    flex-basis: 100%;
+    max-width: 100%;
 }
 
-.salmanii-text{
-    width: 50%;
-    height: 500px;
-    color: var(--text-black-900);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
+.flb_60{
+    flex-basis: 60%;
+    max-width: 60%;
 }
 
-.salmanii-intro{
-    font-size: 28px;
+.flb_40{
+    flex-basis: 40%;
+    max-width: 40%;
 }
 
-.salmanii-intro span{
-    font-family: 'Clicker Script',cursive;
-    color: var(--skin-color);
-    font-size: 30px;
+.flb_50{
+    flex-basis: 50%;
+    max-width: 50%;
 }
 
-.salmanii-profession{
-    font-size: 30px;
-    margin-top: 5px;
+.flb_45{
+    flex-basis: 45%;
+    max-width: 45%;
 }
 
-.salmanii-profession span{
-    color: var(--skin-color);
-}
-
-.salmanii-HomeSection p{
-    columns: var(--text-black-700);
-    margin-top: 15px;
-    margin-bottom: 30px;
-    font-size: 20px;
+.flb_48{
+    flex-basis: 48%;
+    max-width: 48%;
 }
 
 a.btn{
@@ -173,37 +164,6 @@ a.btn{
     transform: scale(1.05);
 }
 
-.salmanii-picture{
-    width: 35%;
-    height: 400px;
-    margin-top: 80px;
-    position: relative;
-    padding-left: 50px;
-    padding-top: 50px;
-}
-
-.salmanii-picture img{
-    height: 300px;
-}
-
-.salmanii-picture::before{
-    content: '';
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    border-top: 10px solid var(--skin-color);
-    border-left: 10px solid var(--skin-color);
-    top: 0;
-    left: 0;
-}
-
-.salmanii-picture::after{
-    content: '';
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    border-bottom: 10px solid var(--skin-color);
-    border-right: 10px solid var(--skin-color);
-    right: 0;
-    bottom: 0;
+.shadow-dark{
+    box-shadow: 0 0 20px rgba(48,46,77,0.15);
 }
