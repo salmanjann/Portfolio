@@ -3,37 +3,6 @@
     min-height: 100%;
 }
 
-.salmanii-section-title{
-    margin-bottom: 60px;
-}
-
-.salmanii-section-title h1{
-    position: relative;
-    font-size: 40px;
-    color: var(--text-black-900);
-}
-
-.salmanii-section-title h1::before{
-    content: '';
-    position: absolute;
-    width: 60px;
-    height: 4px;
-    background-color:var(--skin-color);
-    top: 100%;
-    left: 0;
-}
-
-.salmanii-section-title h1::after{
-    content: '';
-    position: absolute;
-    width: 30px;
-    height: 4px;
-    background-color:var(--skin-color);
-    top: 100%;
-    left: 0;
-    margin-top: 8px;
-}
-
 .salmanii-about-me h2{
     color: var(--text-black-900);
     font-size: 24px;

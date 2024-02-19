@@ -167,3 +167,66 @@ a.btn{
 .shadow-dark{
     box-shadow: 0 0 20px rgba(48,46,77,0.15);
 }
+
+.salmanii-section-title{
+    margin-bottom: 60px;
+}
+
+.salmanii-section-title h1{
+    position: relative;
+    font-size: 40px;
+    color: var(--text-black-900);
+}
+
+.salmanii-section-title h1::before{
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    background-color:var(--skin-color);
+    top: 100%;
+    left: 0;
+}
+
+.salmanii-section-title h1::after{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    background-color:var(--skin-color);
+    top: 100%;
+    left: 0;
+    margin-top: 8px;
+}
+
+.salmanii-outline-section,.salmanii-outline-section-inside{
+    width: 100%;
+    min-height: 100%;
+}
+
+.salmanii-outline-section{
+    position: relative;
+    padding: 40px;
+}
+
+.salmanii-outline-section-inside::before{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-top: 10px solid var(--skin-color);
+    border-left: 10px solid var(--skin-color);
+    top: 0;
+    left: 0;
+}
+
+.salmanii-outline-section-inside::after{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-right: 10px solid var(--skin-color);
+    border-bottom: 10px solid var(--skin-color);
+    bottom: 0;
+    right: 0;
+}

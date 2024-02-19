@@ -58,10 +58,6 @@
     position: relative;
 }
 
-.salmanii-picture img{
-    height: 300px;
-}
-
 .salmanii-picture::before{
     content: '';
     position: absolute;
@@ -87,13 +83,11 @@
 .salmanii-picture-box{
     width: 100%;
     height: 100%;
-    padding: 40px;
-    position: relative;
-    background-image: url(../Images/1.jpg);
-    background-size: cover;
 }
 
-.salmanii-actual-img{
-    width: 100%;
+.salmanii-picture-box img{
     height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
+
