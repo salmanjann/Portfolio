@@ -169,3 +169,64 @@
     font-size: 16px;
     color: var(--text-black-700);
 }
+
+@media screen and (max-width: 480px){    
+    .salmanii-about-me h2{
+        font-size: 25px;
+    }
+
+    .salmanii-about-me p{
+        font-size: 16px;
+    }
+    
+    .salmanii-info{
+        flex-direction: column;
+    }
+
+    .salmanii-personal-info {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    
+    .salmanii-personal-info-item {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .salmanii-personal-info-item p{
+        font-size: 14px;
+    }
+    
+    .salmanii-personl-info-buttons{
+        flex-basis: 100%;
+        max-width: 100%;
+        height: 130px;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+    
+    .salmanii-skills{
+        margin-top: 20px;
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    
+    .salmanii-history{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    
+    .salmanii-education{
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .salmanii-experience{
+        flex-basis: 100%;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+}

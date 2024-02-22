@@ -1,4 +1,3 @@
-
 .salmanii-HomeSection{
     display: flex;
     flex-wrap: wrap;
@@ -91,3 +90,164 @@
     object-fit: cover;
 }
 
+@media screen and (max-width: 480px){
+    .salmanii-HomeSection{
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .salmanii-text{
+        flex-basis: auto;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .salmanii-text-box{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    
+    .salmanii-intro{
+        font-size: 20px;
+    }
+    
+    .salmanii-profession{
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    
+    .salmanii-HomeSection p{
+        font-size: 17px;
+        margin-bottom: 30px;
+    }
+
+    .salmanii-picture{
+        flex-basis: auto;
+        max-width: 80%;
+        padding: 20px;
+        order: -1;
+        height: 250px;
+    }
+
+    .salmanii-picture::before{
+        width: 60px;
+        height: 60px;
+        border-top: 8px solid var(--skin-color);
+        border-left: 8px solid var(--skin-color);
+    }
+    
+    .salmanii-picture::after{
+        width: 60px;
+        height: 60px;
+        border-bottom: 8px solid var(--skin-color);
+        border-right: 8px solid var(--skin-color);
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 665px) {
+    .salmanii-Section{
+        padding: 15px 15px;
+    }
+    .salmanii-text-box{
+        width: 100%;
+    }
+    .salmanii-intro{
+        font-size: 15px;
+    }
+    
+    .salmanii-intro span{
+        font-size: 20px;
+    }
+    
+    .salmanii-profession{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .salmanii-HomeSection p{
+        font-size: 15px;
+        margin-bottom: 60px;
+        line-height: 25px;
+    }
+
+    .salmanii-text{
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+
+    .salmanii-picture{
+        margin-top: 5%;
+        flex-basis: 50%;
+        max-width: 50%;
+        padding: 30px;
+        height: 80%;
+    }
+
+    .salmanii-picture::before{
+        width: 60px;
+        height: 60px;
+        border-top: 8px solid var(--skin-color);
+        border-left: 8px solid var(--skin-color);
+    }
+    
+    .salmanii-picture::after{
+        width: 60px;
+        height: 60px;
+        border-bottom: 8px solid var(--skin-color);
+        border-right: 8px solid var(--skin-color);
+    }
+    
+    .salmanii-picture-box{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .salmanii-picture-box img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+  }
+
+  @media screen and (min-width: 667px) and (max-width: 768px) {
+    .salmanii-Section{
+        padding: 20px 20px;
+    }
+    .salmanii-text-box{
+        width: 100%;
+    }
+    .salmanii-intro{
+        font-size: 20px;
+    }
+    
+    .salmanii-intro span{
+        font-size: 30px;
+    }
+    
+    .salmanii-profession{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    
+    .salmanii-HomeSection p{
+        font-size: 20px;
+        margin-bottom: 70px;
+        line-height: 28px;
+    }
+
+    .salmanii-text{
+        flex-basis: 60%;
+        max-width: 60%;
+    }
+
+    .salmanii-picture{
+        flex-basis: 40%;
+        max-width: 40%;
+        padding: 30px;
+        height: 100%;
+    }
+
+  }
